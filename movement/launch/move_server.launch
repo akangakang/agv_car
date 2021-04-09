@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="movement" type="move_server" name="move_server" output="screen">
+    </node>
+</launch>

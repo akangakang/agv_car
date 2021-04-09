@@ -1,0 +1,6 @@
+<launch>
+    <arg name="x"/>
+    <arg name="y"/>
+    <node pkg="movement" type="move_client" name="move_client" args="$(arg x) $(arg y)" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/src/movement/build/devel
+
+Name: movement
+Description: Description of movement
+Version: 0.0.0
+Cflags: -I/home/wheeltec/wheeltec_robot/src/movement/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs roscpp std_msgs
